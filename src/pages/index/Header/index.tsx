@@ -4,7 +4,7 @@ import styles from './index.less';
 
 const Header: React.FC = props => {
   return (
-    <Row justify="center">
+    <Row justify="center" className="mt-32">
       <Col>
         <p className={styles.title}>Welcome back</p>
         <p className={styles.title}>

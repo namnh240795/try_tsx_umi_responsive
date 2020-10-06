@@ -7,7 +7,7 @@ import Header from './Header';
 
 export default function() {
   return (
-    <Row justify="center" align="middle" className={'h-100-p mt-32'}>
+    <Row justify="center" align="middle" className={'h-100-p'}>
       <Col>
         <Header />
 
