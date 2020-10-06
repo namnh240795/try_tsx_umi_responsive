@@ -1,0 +1,126 @@
+@import '../../less/theme.less';
+
+.login {
+  width: 318px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px 16px;
+  color: @white;
+  background-color: @black;
+  font-family: AB;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.facebook {
+  width: 318px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px 16px;
+  color: @white;
+  background-color: @facebook-color;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.google {
+  width: 318px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px 16px;
+  color: @black;
+  background-color: @white;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  &:hover {
+    background-color: @white;
+    color: @black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: @black;
+  }
+}
+
+.googleLogo {
+  height: 24px;
+  width: 24px;
+  background: url(../../assets/icon_google.png) no-repeat center 0;
+  background-size: 24px 24px;
+}
+
+.facebookLogo {
+  height: 24px;
+  width: 24px;
+  background: url(../../assets/icon_facebook.png) no-repeat center 0;
+  background-size: 24px 24px;
+}
+
+.userLogo {
+  height: 24px;
+  width: 24px;
+  background: url(../../assets/icon_user.png) no-repeat center 0;
+  background-size: 24px 24px;
+}
+
+.passwordLogo {
+  height: 24px;
+  width: 24px;
+  background: url(../../assets/icon_password.png) no-repeat center 0;
+  background-size: 24px 24px;
+}
+
+.iconCheck {
+  height: 24px;
+  width: 24px;
+  background: url(../../assets/icon_check.png) no-repeat center 0;
+  background-size: 24px 24px;
+}
+
+.inputContainer {
+  :global {
+    .ant-input-affix-wrapper {
+      font-family: AR;
+      margin-left: 16px;
+      margin-right: 16px;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+      background-color: transparent;
+      border-color: @gray;
+      box-shadow: none;
+      padding: 4px 0px;
+      &:hover {
+        border-color: @red;
+      }
+      &:focus {
+        border-color: @red;
+      }
+      &::selection {
+        border-color: @red;
+      }
+    }
+    .ant-input {
+      background-color: transparent;
+    }
+  }
+}

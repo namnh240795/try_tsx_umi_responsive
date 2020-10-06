@@ -1,0 +1,20 @@
+.welcome {
+  @media (min-width: 992px) {
+    height: 100vh;
+    flex: 1;
+    background: url(../assets/image.png) no-repeat center 0;
+    background-size: cover;
+  }
+}
+
+.content {
+  min-width: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  @media (min-width: 992px) {
+    flex: none;
+    width: calc(500 / 1440 * 100vw);
+  }
+}
